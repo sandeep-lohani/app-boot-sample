@@ -13,7 +13,7 @@ import javax.validation.constraints.*;
  * Manufacturer
  */
 @Validated
-@javax.annotation.Generated(value = "io.swagger.codegen.languages.SpringCodegen", date = "2020-09-13T20:52:08.509Z")
+@javax.annotation.Generated(value = "io.swagger.codegen.languages.SpringCodegen", date = "2020-09-13T21:10:45.687Z")
 
 
 

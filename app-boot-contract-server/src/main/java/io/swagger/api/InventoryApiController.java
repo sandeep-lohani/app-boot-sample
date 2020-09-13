@@ -20,7 +20,7 @@ import javax.validation.Valid;
 import javax.servlet.http.HttpServletRequest;
 import java.io.IOException;
 import java.util.List;
-@javax.annotation.Generated(value = "io.swagger.codegen.languages.SpringCodegen", date = "2020-09-13T20:52:08.509Z")
+@javax.annotation.Generated(value = "io.swagger.codegen.languages.SpringCodegen", date = "2020-09-13T21:10:45.687Z")
 
 @Controller
 public class InventoryApiController implements InventoryApi {
@@ -46,7 +46,7 @@ public class InventoryApiController implements InventoryApi {
         String accept = request.getHeader("Accept");
         if (accept != null && accept.contains("application/json")) {
             try {
-                return new ResponseEntity<List<InventoryItem>>(objectMapper.readValue("[ {  \"releaseDate\" : \"2016-08-29T09:12:33.001Z\",  \"name\" : \"Widget Adapter\",  \"id\" : \"d290f1ee-6c54-4b01-90e6-d701748f0851\",  \"manufacturer\" : {    \"phone\" : \"408-867-5309\",    \"name\" : \"ACME Corporation\",    \"homePage\" : \"https://www.acme-corp.com\"  }}, {  \"releaseDate\" : \"2016-08-29T09:12:33.001Z\",  \"name\" : \"Widget Adapter\",  \"id\" : \"d290f1ee-6c54-4b01-90e6-d701748f0851\",  \"manufacturer\" : {    \"phone\" : \"408-867-5309\",    \"name\" : \"ACME Corporation\",    \"homePage\" : \"https://www.acme-corp.com\"  }} ]", List.class), HttpStatus.NOT_IMPLEMENTED);
+                return new ResponseEntity<List<InventoryItem>>(objectMapper.readValue("[ {  \"releaseDate\" : \"2016-08-29T09:12:33.001Z\",  \"name\" : \"Widget Adapter\",  \"id\" : \"d290f1ee-6c54-4b01-90e6-d701748f0900\",  \"manufacturer\" : {    \"phone\" : \"408-867-5309\",    \"name\" : \"ACME Corporation\",    \"homePage\" : \"https://www.acme-corp.com\"  }}, {  \"releaseDate\" : \"2016-08-29T09:12:33.001Z\",  \"name\" : \"Widget Adapter\",  \"id\" : \"d290f1ee-6c54-4b01-90e6-d701748f0900\",  \"manufacturer\" : {    \"phone\" : \"408-867-5309\",    \"name\" : \"ACME Corporation\",    \"homePage\" : \"https://www.acme-corp.com\"  }} ]", List.class), HttpStatus.NOT_IMPLEMENTED);
             } catch (IOException e) {
                 log.error("Couldn't serialize response for content type application/json", e);
                 return new ResponseEntity<List<InventoryItem>>(HttpStatus.INTERNAL_SERVER_ERROR);

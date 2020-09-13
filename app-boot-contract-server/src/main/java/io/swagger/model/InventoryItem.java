@@ -16,7 +16,7 @@ import javax.validation.constraints.*;
  * InventoryItem
  */
 @Validated
-@javax.annotation.Generated(value = "io.swagger.codegen.languages.SpringCodegen", date = "2020-09-13T20:52:08.509Z")
+@javax.annotation.Generated(value = "io.swagger.codegen.languages.SpringCodegen", date = "2020-09-13T21:10:45.687Z")
 
 
 
@@ -43,7 +43,7 @@ public class InventoryItem   {
    * Get id
    * @return id
   **/
-  @ApiModelProperty(example = "d290f1ee-6c54-4b01-90e6-d701748f0851", required = true, value = "")
+  @ApiModelProperty(example = "d290f1ee-6c54-4b01-90e6-d701748f0900", required = true, value = "")
   @NotNull
 
   @Valid
