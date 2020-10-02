@@ -13,3 +13,4 @@ Feature: Inventory Microservice
       | 002   | fiction_new   | kids           | 200         | HTTP/1.1 200 OK | Successful | success |
       | 003   | fiction_future   | science        | 200         | HTTP/1.1 200 OK | Successful | success |
       | 004   | fiction_now   | science        | 200         | HTTP/1.1 200 OK | Successful | success |
+      | 005   | fiction   | 2050        | 200         | HTTP/1.1 200 OK | Successful | success |
